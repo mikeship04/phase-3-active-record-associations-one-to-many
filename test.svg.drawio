@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="zM5SYEo-mPNrJrdSbt1y" name="Page-1">
+        <mxGraphModel dx="753" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="GAMES&lt;br&gt;id (don't add)&lt;br&gt;string :title&lt;br&gt;string :genre&lt;br&gt;string :platform&lt;br&gt;integer :price&lt;br&gt;datetime :created_at&lt;br&gt;datetime :updated_at" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="190" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="REVIEWS&lt;br&gt;id (don't add)&lt;br&gt;integer :score&lt;br&gt;string :comment&lt;br&gt;integer :game_id&lt;br&gt;datetime :created_at&lt;br&gt;datetime :updated_at" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="190" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="250" as="sourcePoint"/>
+                        <mxPoint x="410" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
